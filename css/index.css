@@ -1,0 +1,712 @@
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+
+}
+html{
+    font-size: 62.5%;
+}
+:root {
+    --div-height: 100vh;
+    
+}
+
+.center_div {
+    height: calc(var(--div-height));
+}
+.center1_div  .up_div{
+    height: calc(var(--div-height) - 60vh);
+    
+}
+.center1_div .up_div{
+    border-radius: 1rem;
+    
+}
+.center1_div  .down_div{
+    height: calc(var(--div-height) - 40vh);
+    
+}
+.center1_div .down_div{
+    border-radius: 1rem;
+    
+}
+
+.up_div .image1{
+
+    width:100%;
+    height:30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:-1rem;
+    box-sizing: border-box;
+}
+.up_div .image1 img{
+    width:70%!important;
+    height: 19vh!important;
+}
+
+    
+.up_div .font1{
+
+    width:auto;
+    height: auto;
+    
+    
+}
+   
+   
+ 
+  .font1 h1{
+    
+    
+width:auto;
+    
+   /*width: 35rem;*/
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin-top:-2rem;
+    
+    
+   
+    text-transform: uppercase;
+    
+    margin-left: 2rem;
+}
+.font1 p{
+    width:auto;
+   /* background-color:blueviolet;
+    
+    width: 35rem;*/
+     height: 4vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     box-sizing: border-box;
+     margin-top:-1.5rem;
+     font-weight: 700;
+     font-size: 1.2rem;
+  margin-right: -2rem;
+}
+.up_div .but{
+    
+    font-weight: 900;
+    width:auto;
+    height:5vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -0.7rem;
+    border-radius: 1rem;
+    margin-top: 0.5rem;
+box-sizing: border-box;
+}
+.up_div .but button{
+    margin-left:2rem;
+   border-radius: 1rem;
+        font-size: 1.5rem;
+       box-sizing: border-box;
+}         
+      
+    
+            
+  
+
+.center1_div .down_div{
+    background-color:rgba(0, 0, 0, 0.999);
+    box-sizing: border-box;
+}/* image section of icon*/
+.down_div .row{
+    margin-top: 3rem;
+    margin-left:-4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.row .image{
+    width:6rem;
+    height: 6vh;
+    margin-top: 0.4rem;
+    margin-left: 1.2rem;
+    box-sizing: border-box;
+
+    
+}
+.up_div .img1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+/*icon css*/
+.row .icon1{
+    margin-top: 1rem;
+    margin-left: 3rem;
+    width:10rem;
+    height:10vh;
+    background-color:rgba(204, 193, 193, 0.589);
+}
+
+.row .icon2{
+    margin-left: 7.5rem;
+    margin-top: 1rem;
+    width:10rem;
+    height:10vh;
+    background-color:rgba(204, 193, 193, 0.589);
+}
+
+.row .icon3{
+    margin-top: 1rem;
+    margin-left: 3rem;
+    width:10rem;
+    height:10vh;
+    background-color:rgba(204, 193, 193, 0.589)
+}
+.row .icon4{
+    margin-top: 1rem;
+    margin-left: 7.4rem;
+    width:10rem;
+    height:10vh;
+    background-color: rgba(204, 193, 193, 0.589);
+}
+.row .icon5{
+    margin-top: 1rem;
+    margin-left: 3rem;
+    width:10rem;
+    height:10vh;
+    background-color:rgba(204, 193, 193, 0.589);
+}
+
+.row .icon6{
+    margin-top: 1rem;
+    margin-left: 7.4rem;
+    width:10rem;
+    height:10vh;
+    background-color: rgba(204, 193, 193, 0.589);
+}
+.row .icon7{
+    margin-top: 1rem;
+    margin-left: 3rem;
+    width:10rem;
+    height:10vh;
+    background-color: rgba(204, 193, 193, 0.589);
+}
+.row .icon8{
+    margin-top: 1rem;
+    margin-left: 7.4rem;
+    width:10rem;
+    height:10vh;
+    background-color: rgba(204, 193, 193, 0.589);
+}
+/* font size*/
+
+.row .iconfont{
+    font-weight: 800;
+    margin-top: 0.5rem;
+    font-size:0.9rem;
+    margin-left: 1.7rem;
+    
+}
+.row .iconfont0{
+    font-weight: 800;
+    margin-top: 0.2rem;
+    font-size:0.9rem;
+    margin-left: 1.7rem;
+    
+}
+.row .iconfont1{
+    font-weight: 800;
+    font-size:1rem;
+    margin-top: 0.4rem;
+    margin-left: 1.5rem;
+}
+.row .iconfont3{
+    font-weight: 800;
+    font-size:0.9rem;
+    margin-top: 0.4rem;
+    margin-left: 2rem;
+}
+.row .iconfont4{
+    font-weight: 800;
+    font-size:1rem;
+    margin-top: 0.5rem;
+    margin-left: 2.5rem;
+}
+
+.row .iconfont6{
+    font-size:1rem;
+    font-weight: 800;
+
+    margin-left: 2.4rem;
+}
+.row .iconfont8{
+    font-weight: 900;
+    font-size:1rem;
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+}
+/*button see more
+.up_div .but button{
+    margin-left:2rem;
+   border-radius: 1rem;
+        font-size: 1.5rem;
+       box-sizing: border-box;
+                
+      
+    
+            
+  } */
+  .down_div .but{
+    
+    font-weight: 900;
+    width:auto;
+    height:5vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: -2.5rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+box-sizing: border-box;
+}
+.down_div .but button{
+    margin-left:2rem;
+   border-radius: 1rem;
+        font-size: 1.5rem;
+       box-sizing: border-box;
+                
+    
+  }
+  /*centerdiv*/
+.ul .list-group-item{
+    width:75px;
+    color:white;
+    background-color: black;
+    box-sizing: border-box;
+}
+.ul .list-group{
+    
+    border-radius: 0.9rem;
+    
+}
+.ul1{
+   
+
+    width:60rem;
+    height:15rem;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    position: relative;
+    background-color: black;
+    
+}
+.ul1 .recent{
+    color:white;
+    height:2.5rem;
+    
+}
+.h2, h2 {
+    position: relative;
+    font-size: 1.4rem;
+}
+.ul1 h2:after{
+    content:"";
+    width:550px;
+    height:0.2rem;
+    position:absolute;
+    top:110%;
+    left: 0.5%;
+    background:white;
+        
+        
+    }
+.story1 img{
+    width:11rem;
+    height:11rem;
+    margin-top:0.5rem;
+    border-radius: 3rem;
+    margin-left:-1rem;
+    position: relative;
+    top:0;
+    left:0;
+
+}
+.story2 img{
+    width:11rem;
+    height:11rem;
+    border-radius: 2rem;
+    margin-top:0.5rem;
+    margin-left:4rem;
+    position: relative;
+    top:0;
+    left:0;
+
+}
+.story3 img{
+    width:11rem;
+    height:11rem;
+    border-radius: 3rem;
+    margin-left:2rem;
+    position: relative;
+    margin-top:0.5rem;
+    top:0;
+    left:0;
+
+}
+.story4 img{
+    width:11rem;
+    height:11rem;
+    border-radius: 3rem;
+    margin-left:2rem;
+    margin-top:0.5rem;
+    
+    position: relative;
+    top:0;
+    left:0;
+
+}
+
+.story1 .child{
+    position: absolute;
+    width:7rem;
+    height:8rem;
+    top:4.5rem;
+    left:7.1rem;
+}
+.story2 .child2{
+    position: absolute;
+    width:7rem;
+    height:8rem;
+    top:4.5rem;
+    left:17.1rem;
+}
+.story3 .child3{
+    position: absolute;
+    width:7rem;
+    height:8rem;
+    top:4.5rem;
+    left:32.3rem;
+}
+.story4 .child4{
+    position: absolute;
+    width:7rem;
+    height:8rem;
+    top:4rem;
+    left:45.3rem;
+}
+/*vl1photo view */
+.vl1{
+    height: calc(var(--div-height) - 90vh);
+
+    width:60rem;
+    height:10rem;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    position: relative;
+    background-color: white;
+    
+}
+.vl .list-group-item{
+   
+    width:19rem;
+    color:white;
+    background-color: black;
+    box-sizing: border-box;
+    padding-left:6rem;
+    
+}
+.vl .list-group-item i{
+    margin-left: -2rem;
+    margin-right:1rem;
+}
+.vl .list-group{
+    
+    border-radius: 0.9rem;
+    
+}
+.vl .list-group-item .i2{
+    margin-left: 1rem;
+    margin-right:1rem;
+}
+
+.vl .list-group-item .i3{
+    margin-left: 1rem;
+    margin-right:1rem;
+}
+/* send reply */
+.wl1 {
+    height:4.7rem;
+    position: relative;
+    top:0;
+    left:0;
+   
+    background-color: rgba(255, 255, 255, 0.589);
+}
+.wl1 img{
+    position: absolute;
+    width:3rem;
+    height:2rem;
+    top:2%; 
+    left:-2%;
+}
+.wl1 p{
+    position: absolute;
+    top:8%;
+    left:4%;
+    font-weight: 600;
+}
+/*Line make*/
+.wl1 p:after{
+    content:"";
+    width:570px;
+    height:0.1rem;
+    position:absolute;
+    top:300%;
+    left: -45%;
+    background:white;
+        
+        
+    }
+
+
+/* dropdown menu*/
+.wl1 .drop{
+    position: absolute;
+    top:46%;
+    left:84%;
+    background-color: blue;
+    border-radius: 1rem;
+}
+
+/*Post button*/
+ .ma{
+     font-size:1.2rem;
+    width:54rem;
+    height:2rem;
+    color:white;
+    margin-left:3rem;
+    background-color: green;
+ 
+}/* background for 3rd div */
+
+.xl1 {
+    height:17rem;
+    position: relative;
+    background-color:white;
+    border-radius:1rem;
+    top:0;
+    left:0;
+}/* icon image*/
+.xl1 img{
+    position: absolute;
+    width:3rem;
+    height:3rem;
+    top:3%; 
+    left:3%;
+}
+.xl1 h2{
+    position: absolute;
+    top:6%;
+    left:10%;
+    font-size:1.1rem;
+    font-weight: 600;
+}
+.xl1 h3 {
+    position: absolute;
+    top:14%;
+    left:10%;
+    font-size:0.8rem;
+    font-weight: 400;
+}
+.xl1 p {
+    position: absolute;
+    top:24%;
+    left:5%;
+    font-size:0.8rem;
+    font-weight: 600;
+    word-spacing: 1rem;
+}
+/* big image*/
+ .i1 img{
+     margin-left:12rem;
+     
+     margin-top:6rem;
+     width:30rem;
+     height:8rem;
+     border-radius: 0.4rem;
+
+}
+/*icons social*/
+.icons{
+    position: absolute;
+    top:80%;
+    left:5%;
+}
+.anchor{
+    
+    position: relative;
+    width:2rem;
+    height:2rem;
+    background-color: black;
+    border-radius: 5rem;
+   margin:1rem;
+    
+}
+.anchor2{
+    
+    position: relative;
+    width:2.2rem;
+    height:2.2rem;
+    background-color:green;
+    border-radius: 5rem;
+   margin:1rem;
+    
+}
+.icons .mani{
+    position: absolute;
+ color:white;
+    top:30%;
+    left:19%;
+
+    
+}
+.icons .mani2{
+    position: absolute;
+ color:white;
+    top:27%;
+    left:25%;
+
+    
+}
+.icons .mani3{
+    position: absolute;
+ color:white;
+    top:32%;
+    left:21%;
+
+    
+}
+/*2nd part div*/
+.icons1{
+    position: absolute;
+top:67%;
+left:60%;
+margin:1rem;
+
+}
+
+.icons1 .side{
+    position: absolute;
+ color:black;
+    top:30%;
+    left:19%;
+   
+
+    
+}
+.icons1 .side1{
+    position: absolute;
+ color:black;
+    top:27%;
+    left:26%;
+
+    
+}
+.icons1 .side2{
+    position: absolute;
+ color:black;
+    top:32%;
+    left:21%;
+
+    
+}/*Giving marginicons*/
+.anch{
+    
+    position: relative;
+    
+   
+    color:white;
+   margin:2rem;
+    
+}
+.anch1{
+    
+    position: relative;
+   color:white;
+   margin:2rem;
+    
+}
+/*2nd part of social icons(sns)*/
+.icons0{
+    position: absolute;
+top:77%;
+left:75%;
+margin:1rem;
+color:white;
+
+}
+.anch2{
+    
+    position: relative;
+    
+   
+    color:black;
+   margin:1rem;
+    
+}
+.anch3{
+    
+    position: relative;
+   color:black;
+   margin:1rem;
+    
+}
+/*right side div*/
+.r1 h2{
+    position: relative;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-left:1.7rem;
+}
+.r1 h2:after{
+    content:"";
+    width:270px;
+    height:0.1rem;
+    position:absolute;
+    top:130%;
+    left: 0.5%;
+    background:black;
+        
+        
+    }
+    .vh{
+        margin-top:-4rem;
+        font-weight: 600;
+    }
+     .bgvid{
+        border-radius: 1rem!important;
+    }
+    .vh1{
+        margin-top:-2rem;
+        font-weight: 600;
+    }
+ 
+
+ 
+   
